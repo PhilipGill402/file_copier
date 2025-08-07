@@ -1,4 +1,4 @@
-# 📁 File Copier Utility (C)
+# File Copier Utility (C)
 
 A simple command-line utility written in C that replicates the behavior of the Unix `cp` command. This tool copies the contents of a file into another file or into a destination directory, creating a new copy with the same filename.
 
@@ -6,14 +6,12 @@ A simple command-line utility written in C that replicates the behavior of the U
 
 ## 🛠 Features
 
-- ✅ Supports copying from source file to destination file.
-- ✅ Detects if the destination is a directory and appends the filename.
-- ✅ Handles basic file I/O and buffer-based copying.
-- ✅ Includes error handling for file access and path issues.
+- Supports copying from source file to destination file.
+- Detects if the destination is a directory and appends the filename.
+- Handles basic file I/O and buffer-based copying.
+- Includes error handling for file access and path issues.
 
 ---
-
-## 🚀 Usage
 
 ### 🔧 Compilation
 
@@ -32,17 +30,17 @@ gcc copier.c -o copier
 ### ▶️ Running
 
 ```bash
-./copier <source_file> <destination_file_or_directory>
+./copy <source_file> <destination_file_or_directory>
 ```
 
 #### Examples
 
 ```bash
 # Copy to another file
-./copier input.txt output.txt
+./copy test.c hello.c
 
 # Copy to a directory (retains original filename)
-./copier input.txt ./backup_folder/
+./copy test.c src
 ```
 
 ---
@@ -51,9 +49,9 @@ gcc copier.c -o copier
 
 ```
 copier.c       # Main source file
-copier.h       # Header declarations (if added)
+copier.h       # Header declarations
 README.md      # This file
-Makefile       # For easy building (optional)
+Makefile       # For easy building
 ```
 
 ---
@@ -74,4 +72,4 @@ This project is open-source and free to use under the [MIT License](LICENSE).
 
 ## ✍️ Author
 
-Created by [Your Name] – feel free to contribute or suggest improvements.
+Created by Philip Gill – feel free to contribute or suggest improvements.
