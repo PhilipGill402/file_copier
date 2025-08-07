@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-#include <math.h>
 
 int is_file(char* path);
 char* get_file_path(char* path, char* source);
