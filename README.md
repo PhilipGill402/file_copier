@@ -61,6 +61,8 @@ Makefile       # For easy building
 - The buffer size is capped at 1000 characters per read operation.
 - Destination path handling checks for a `.` in the name to determine if it's a file.
 - Does not currently support recursive directory copying or metadata preservation.
+- Now supports using system calls to copy the program
+    - to do this, navigate to the posix_file_copier folder and run the same commands
 
 ---
 
